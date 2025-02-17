@@ -1,0 +1,25 @@
+.layui-tab {
+    width: 100%;
+    position: relative;
+}
+
+.layui-tab-title {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column; /* 垂直排列标签 */
+    align-items: flex-end; /* 对齐到右侧 */
+}
+
+.layui-tab-title li {
+    margin-bottom: 10px; /* 调整标签之间的间距 */
+}
+
+.layui-tab-content {
+    margin-right: 200px; /* 根据标签导航宽度调整内容区域的边距 */
+}
+
+.layui-tab-item {
+    width: 100%;
+}
