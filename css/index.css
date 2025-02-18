@@ -12,6 +12,20 @@
     align-items: flex-end; /* 对齐到右侧 */
 }
 
+.layui-tab-content {
+    height: 100vh;
+    overflow-y: auto;
+    text-align: left;
+}
+.layui-tab-content .layui-tab-item {
+    text-align: left;
+    margin: 0; /* 去除外边距 */
+    padding: 0; /* 去除内边距 */
+}
+.layui-tab-content .layui-tab-item pre {
+    margin-top: 0; /* 去除 <pre> 标签顶部外边距 */
+}
+
 .layui-tab-title li {
     margin-bottom: 10px; /* 调整标签之间的间距 */
 }
